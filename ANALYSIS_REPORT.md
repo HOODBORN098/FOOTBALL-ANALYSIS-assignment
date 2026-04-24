@@ -1,4 +1,4 @@
-# Football Analysis Exercise - Basic Exploration
+# **Football Analysis Exercise - Basic Exploration**
 
 This report provides the detailed answers and logic for the Basic Exploration, Goals Analysis, and Match Results sections of the assignment.
 
@@ -38,7 +38,7 @@ print(df["home_team"].value_counts().head(1))
 
 ---
 
-# Goals Analysis
+# **Goals Analysis**
 
 5. What is the average number of goals per match?
 - Code:
@@ -75,7 +75,7 @@ print(df["total_goals"].mode()[0])
 
 ---
 
-# Match Results
+# **Match Results**
 
 9. What percentage of matches are home wins?
 - Code:
@@ -99,7 +99,7 @@ most_wins = df["winner"].value_counts().idxmax()
 
 ---
 
-# Visualization
+# **Visualization**
 
 Histogram of Goals
 - Code:
